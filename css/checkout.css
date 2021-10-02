@@ -1,0 +1,137 @@
+* {box-sizing: border-box;}
+
+@font-face {
+    font-family: noah;
+    src: url(Noah/WEB/Noah-Regular.woff);
+}
+
+.content {
+    font-family: noah;
+    padding-left: 16px; 
+    padding-top: 70px;
+    padding-right: 16px; 
+    margin-bottom: 40px;
+    min-height: 100%;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    border-radius: 0 0 5px 5px;
+    padding: 25px;
+  }
+  .content form{
+    flex: 4;
+  }
+  .Yorder{
+    flex: 2;
+  }
+
+  .content h2{
+    margin: 0;
+    padding-left: 15px; 
+  }
+  .required{
+    color: red;
+  }
+
+  .fname input, .lname input{
+    height: 30px;
+    width: 600px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    margin-left: 48px;
+    margin-right: 3px;
+    margin-bottom: 35px;
+  }
+
+  .addr input{
+    height: 30px;
+    width: 426px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    margin-left: 18px;
+    margin-right: 3px;
+    margin-bottom: 35px;
+  }
+
+.contnum input{
+  height: 30px;
+  width: 598px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  margin-left: 8px;
+  margin-right: 3px;
+  margin-bottom: 35px;
+}
+.category_div select{
+  height: 30px;
+  width: 600px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  margin-left: 10px;
+  margin-right: 3px;
+  margin-bottom: 35px;
+
+}
+.sub_category_div select{
+  height: 30px;
+  width: 600px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  margin-left: 61px;
+  margin-right: 3px;
+  margin-bottom: 35px;
+}
+  .Yorder{
+    margin-top: -390px;
+    margin-bottom: 100px;
+    height: 600px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-left: 1000px;
+    margin-right: 50px;
+  }
+
+  .cust-info{
+    padding-top: 100px;
+    margin-left: 100px;
+    
+  }
+  
+  .Yorder>div{
+    padding: 15px 0; 
+  }
+  .Yorder button{
+    width: 75%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background: #1e06a7;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 55px;
+  }
+  .Yoder button:hover{
+    cursor: pointer;
+    background: #1b0694;
+  }
+
+ 

@@ -1,0 +1,8 @@
+.link-ftr{
+  font-family: noah;
+  color: black !important;
+  text-decoration: none;
+}
+.link-ftr:hover{
+  color:var(--clr-dark-pink) !important;
+}

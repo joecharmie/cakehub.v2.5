@@ -1,0 +1,48 @@
+* {box-sizing: border-box;}
+
+@font-face {
+  font-family: noah;
+  src: url(Noah/WEB/Noah-Regular.woff);
+}
+
+.footer {
+  font-family: noah;
+  background-color:  #d15957;
+  position: relative;
+  height: 70px;
+  width:100%;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.bottom{
+  background-color: #f9eaef;
+  margin-top: 30px;
+  color: black;
+}
+
+hr{
+  height: 0px;
+  border: none;
+  border-top: 1px solid black;
+  width: 80%;
+  padding-bottom: 20px;
+
+}
+
+.copyright{
+  margin-top: 13px;
+  margin-bottom: 13px;
+  padding-left: 35px;
+  padding-bottom: 15px;
+  color: black;
+}
+
+a:link, a:after, a:visited {
+  text-decoration: none!important;
+  color: black;
+  background-color: transparent;
+}
+
+ 

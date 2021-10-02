@@ -1,0 +1,29 @@
+button{
+    background-color: #294C60; 
+    text-align: center;
+    color: white;
+}
+button:hover{
+    color: lightblue;
+}
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: lightblue;
+}
+.container:hover{
+    background-color: #dbf0ff;
+}
+.activitytime{
+    margin-right: 0px;
+    margin-top: 25px;
+}
+.container-time{
+    display: flex;
+    align-self: flex-end;
+}
+.optionbutton{
+    background-color: transparent;
+}

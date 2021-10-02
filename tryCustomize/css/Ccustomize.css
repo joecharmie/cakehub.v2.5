@@ -1,0 +1,43 @@
+.opt-btns{
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 0.5rem;
+  border-color: unset;
+  background: #d18180;
+  color: white;
+}
+.opt-btns:hover{
+  background: #d15957;
+  border-color: transparent;
+}
+.opt-btns:focus{
+  background: #d15957;
+  border-color: unset;
+  outline: none;
+}
+
+.r-btns{
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 0.5rem;
+  border-color: unset;
+  background: #ffc59c;;
+  color: white;
+}
+
+.r-btns:hover{
+  background: #f8a265;
+  border-color: transparent;
+  
+}
+.r-btns:focus{
+  background:  #f8a265;
+  border-color: unset;
+  outline: none;
+}
+
+.rounded-img{
+  border-style: solid;  
+  border-color: #d15957; 
+  border-radius: 10%;
+}

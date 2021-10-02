@@ -1,0 +1,82 @@
+hr{
+    width: 100%;
+}
+.no-outline:focus{
+    outline: none;
+}
+.no-outline:active{
+    outline: none;
+}
+.no-outline{
+    border-color:  #d18180;
+    border-width: thin;
+    padding: 3px;
+    border-style: solid;
+    border-radius: 0.5rem;
+}
+.no-outline1:focus{
+    outline: none;
+}
+.no-outline1:active{
+    outline: none;
+}
+
+.img-container {
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    padding: 10px;
+}
+.prod-container {       
+    width: auto;
+    height: 20em;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    text-align: center;
+    background-image: linear-gradient(rgb(255,197,156),rgb(255,197,156), rgb(255,239,210));
+}
+.deltime input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(190, 190, 190);
+}
+
+.deltime input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100; 
+}
+
+.deltime input[type="radio"]:checked+label,
+.Checked+label {
+    background: #d15957;
+    font-weight: bold;
+    color: white;
+}
+.time-opt{
+    padding:8px;
+    margin-right: 10px;
+    border-radius: 0.5rem;
+    background: #d18180;
+}
+.mb-0{
+    margin-bottom: 0;
+    margin-top: 20px;
+}   
+.btn{
+    border-radius: 0.5rem;
+    border-color: transparent;
+    background: #d18180;
+    color: white;
+}
+.btn:focus{
+    background: #d15957;
+}
+.submit-btn{
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+}

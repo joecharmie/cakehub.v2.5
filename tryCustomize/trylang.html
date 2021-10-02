@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- bootstrap 4 - start -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <!-- bootstrap 4 - end  -->
+
+  <!-- navbar and font-awesome -start -->
+  <link rel="stylesheet" href="./css/navbar1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+  <!-- navbar and font-awesome -end -->
+
+  <link rel="stylesheet" href="./css/Ccustomize.css">
+
+  <title>Customize | Cakebase</title>
+
+</head>
+<body>
+
+
+  <nav style="background: rgb(209, 89,87); width: 100% !important;" >
+    <div class="nav-center">
+      <!-- nav header -->
+      <div class="nav-header">
+        <img src="./Images/1.png" class="logo" alt="logo" />
+        <button class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <!-- links -->
+      <ul class="links">
+        <li>
+          <a href="#" class="text-light">
+            My Cart
+            <i class="fa fa-shopping-cart text-light " aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+   
+      
+    </div>
+  </nav>
+
+  <main>
+    <!-- <div class="m-5">
+      <p style="background-color: #d4d4d4;">Lorem ipsum dolor sit amet, consectetur
+        <span id="draggable" style="background-color: lightskyblue;">adipiscing</span> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div> -->
+    <div class="p-5 m-5 " style="background-color:#fcbab1;">
+    
+      <img src="./Vector/5_T/strawberry (1).png" alt="" id="draggable1" height="25px">
+      <img src="./Vector/5_T/strawberry (1).png" alt="" id="draggable2" height="25px">
+      <img src="./Vector/5_T/strawberry (1).png" alt="" id="draggable3" height="25px">
+      <img src="./Vector/5_T/strawberry (1).png" alt="" id="draggable4" height="25px">
+      <img src="./Vector/5_T/strawberry (1).png" alt="" id="draggable5" height="25px">
+      <div class="text-center">
+        <h3>Cake Toppings</h3>
+        <img src="./imgDisplay3/31.png" alt="" class="rounded" style="border-style:solid; border-color:rgb(209, 89,87);">
+
+      </div>
+      
+
+    </div>
+
+   
+  </main>
+
+
+  <script src="./js-customize/script-navbar1.js"></script>
+  <script src="./node_modules/plain-draggable/plain-draggable.min.js"></script>
+
+  <script>
+    // draggable = new PlainDraggable(document.getElementById('draggable'));
+    draggable1 = new PlainDraggable(document.getElementById('draggable1'));
+    draggable2 = new PlainDraggable(document.getElementById('draggable2'));
+    draggable3 = new PlainDraggable(document.getElementById('draggable3'));
+    draggable4 = new PlainDraggable(document.getElementById('draggable4'));
+    draggable5 = new PlainDraggable(document.getElementById('draggable5'));
+
+    // draggable1.containment = {left: 20, top: 20, width: 800, height: 0};
+  </script>
+
+
+</body>
+</html>
